@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_acerca">
+
+    <fragment
+        android:id="@+id/nav_acerca"
+        android:name="com.gocp.cutipaperezpa2.fragment.informacion.AcercaFragment"
+        android:label="@string/menu_acerca"
+        tools:layout="@layout/fragment_acerca" />
+
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.gocp.cutipaperezpa2.fragment.archivo.ProductosFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_productos" />
+
+
+</navigation>
